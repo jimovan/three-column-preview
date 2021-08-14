@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #f2f2f2;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+h2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  color: #f2f2f2;
+  text-transform: uppercase;
+}
+
+.container {
+  border-radius: 0.4rem;
+  max-width: 23.4375rem;
+  margin: 5rem auto;
+  overflow: hidden;
+}
+@media only screen and (min-width: 56.25rem) {
+  .container {
+    display: flex;
+    max-width: 65.5rem;
+  }
+}
+
+.card {
+  padding: 3rem 4rem;
+}
+.card > * {
+  margin-bottom: 2rem;
+}
+.card__title {
+  font-size: 2rem;
+}
+.card__button {
+  font-family: "Lexend Deca", sans-serif;
+  background-color: #f2f2f2;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  border: none;
+  margin-bottom: 0;
+  cursor: pointer;
+  font-weight: bold;
+}
+.card__button--sedans {
+  color: #e38826;
+}
+.card__button--suvs {
+  color: #006970;
+}
+.card__button--luxury {
+  color: #004241;
+}
+.card--sedans {
+  background-color: #e38826;
+}
+.card--suvs {
+  background-color: #006970;
+}
+.card--luxury {
+  background-color: #004241;
+}
+@media only screen and (min-width: 56.25rem) {
+  .card__description {
+    margin-bottom: 5rem;
+  }
+}/*# sourceMappingURL=style.css.map */
