@@ -19,16 +19,12 @@
     margin-bottom: 2rem;
   }
 
-  &__title {
-    font-size: 2rem;
-  }
-
   &__button {
     font-family: "Lexend Deca", sans-serif;
     background-color: $backgroundGrey;
     padding: 1rem 2rem;
+    border: 0.2rem solid white;
     border-radius: 2rem;
-    border: none;
     margin-bottom: 0;
     cursor: pointer;
     font-weight: bold;
@@ -41,6 +37,11 @@
     }
     &--luxury {
       color: $darkCyan;
+    }
+
+    &:hover {
+      background-color: transparent;
+      color: $backgroundGrey;
     }
   }
 
@@ -61,4 +62,12 @@
       margin-bottom: 5rem;
     }
   }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
