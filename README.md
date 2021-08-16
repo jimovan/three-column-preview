@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://jimovan.github.io/three-column-preview/)
+- Solution URL: [https://www.frontendmentor.io/solutions/three-column-preview-mobile-first-with-sass-and-bem-u1dEkH39B](https://www.frontendmentor.io/solutions/three-column-preview-mobile-first-with-sass-and-bem-u1dEkH39B)
+- Live Site URL: [https://jimovan.github.io/three-column-preview](https://jimovan.github.io/three-column-preview)
 
 ## My process
 
